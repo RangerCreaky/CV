@@ -1,3 +1,3 @@
 # CV
-# a pure HTML prject to start with
+# a pure HTML project to start with
 # lot more coming up :)

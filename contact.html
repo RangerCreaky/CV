@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Contact Me</h3>
+
+    <ul>
+        <li><a href="www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="instagram.com/great_nav/?hl=en" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
+    </ul>
+
+
+    <form action="mailto:seshapranav@gmail.com" method="post" enctype="text/plain">
+        <label for="yourName"> your Name:</label>
+
+        <div><input type="text" id="yourName" name="name"></div>
+        <br>
+        <label for="NickName"> NickName : </label>
+        <div><input type="text" id="NickName" name="nickName"></div>
+        <br>
+
+        <label for="dob"> Date Of Birth</label>
+        <div><input type="date" name="dob" id="dob"></div>
+        <br>
+        <label for="email"> Email :</label>
+        <div><input type="email" name="email" id="email" required></div>   
+        <br>
+        <label for="password"> Password :</label>
+        <div><input type="password" name="password" id="password" required></div>
+        <br> 
+        <label for="myGender"> Gender : </label>
+        <div>Male: <input type="radio" name="gender" id="myGender"></div>
+        <div>Female: <input type="radio" name="gender" id="myGender"></div>
+        <div>Others: <input type="radio" name="gender" id="myGender"></div>
+        <br>
+
+        <label for="age"> Age : </label>
+        <div><input type="range" name="age" id="age"></div>
+        <br>
+        <label for="profession"> Profession :</label>
+        <div>
+            <select name="proffesion" id="profession">
+                <option value="student">Student</option>
+                <option value="employee" selected>Employee</option>
+                <option value="teacher">Teacher</option>
+                <option value="retired">Retired</option>
+            </select>
+        </div>
+        <br>
+        <label for="message"> Message: </label>
+        <div><textarea name="textMessage" id="message" cols="30" rows="10"></textarea></div>
+
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
